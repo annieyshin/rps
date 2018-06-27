@@ -1,7 +1,6 @@
 class Rps
-  # def initialize(player1)
-  #   "#{player1}" = gets.chomp
-  # end
+  # def initialize()
+  #   @counter = 0
   # RPS.new("game")
   #
   # puts "Play Rock, Paper, and Scissors!"
