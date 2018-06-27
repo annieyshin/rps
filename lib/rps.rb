@@ -24,6 +24,15 @@ class RPS
     elsif (x == "paper" && y == "paper")
       print "It's a tie!"
       false
+    elsif (x == "scissors" && y == "paper")
+      print "You won!"
+      true
+    elsif (x == "scissors" && y == "rock")
+      print "You lost!"
+      false
+    elsif (x == "scissors" && y == "scissors")
+      print "It's a tie!"
+      false
     else
       false
     end
